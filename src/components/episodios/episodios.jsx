@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 export function Episodios() {
 
     return (
-        <section id="episodios" class="py-16 bg-zinc-900">
+        <section id="episodios" class="py-16 bg-zinc-900 text-white">
         <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold mb-8 border-l-4 border-purple-500 pl-4">Episodios Recientes</h2>
+            <h2 class="text-3xl font-bold mb-8 border-l-4 border-yellow-600 pl-4">Episodios Recientes</h2>
             
             <div class="grid gap-6">
                 <div class="bg-zinc-800 rounded-lg overflow-hidden">
@@ -15,7 +15,7 @@ export function Episodios() {
                                 <img src="https://placehold.co/96x96/333/FFF?text=EP1" alt="Episodio 1" class="rounded-md"/>
                             </div>
                             <div>
-                                <span class="text-purple-400 text-sm">Episodio 1</span>
+                                <span class="text-yellow-500 text-sm">Episodio 1</span>
                                 <h3 class="text-xl font-bold mb-2">El comienzo de todo</h3>
                                 <p class="text-zinc-400 text-sm mb-3">
                                     En este episodio inaugural, hablamos sobre los orígenes del podcast y lo que nos inspiró a crearlo.
@@ -36,7 +36,7 @@ export function Episodios() {
                                     <line x1="5" y1="19" x2="5" y2="5"></line>
                                 </svg>
                             </button>
-                            <button class="bg-purple-600 hover:bg-purple-700 rounded-full h-10 w-10 flex items-center justify-center">
+                            <button class="bg-yellow-600 duration-300 cursor-pointer hover:bg-yellow-700 rounded-full h-10 w-10 flex items-center justify-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                     <polygon points="5 3 19 12 5 21 5 3"></polygon>
                                 </svg>
@@ -69,7 +69,7 @@ export function Episodios() {
                                 <img src="https://placehold.co/96x96/333/FFF?text=EP2" alt="Episodio 2" class="rounded-md"/>
                             </div>
                             <div>
-                                <span class="text-purple-400 text-sm">Episodio 2</span>
+                                <span class="text-yellow-500 text-sm">Episodio 2</span>
                                 <h3 class="text-xl font-bold mb-2">Conversaciones profundas</h3>
                                 <p class="text-zinc-400 text-sm mb-3">
                                     Exploramos temas filosóficos y reflexionamos sobre el significado de la vida moderna.
@@ -90,7 +90,7 @@ export function Episodios() {
                                     <line x1="5" y1="19" x2="5" y2="5"></line>
                                 </svg>
                             </button>
-                            <button class="bg-purple-600 hover:bg-purple-700 rounded-full h-10 w-10 flex items-center justify-center">
+                            <button class="bg-yellow-600 duration-300 cursor-pointer hover:bg-yellow-700 rounded-full h-10 w-10 flex items-center justify-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                     <polygon points="5 3 19 12 5 21 5 3"></polygon>
                                 </svg>
@@ -122,7 +122,7 @@ export function Episodios() {
                                 <img src="https://placehold.co/96x96/333/FFF?text=EP3" alt="Episodio 3" class="rounded-md"/>
                             </div>
                             <div>
-                                <span class="text-purple-400 text-sm">Episodio 3</span>
+                                <span class="text-yellow-500 text-sm">Episodio 3</span>
                                 <h3 class="text-xl font-bold mb-2">Entrevista especial</h3>
                                 <p class="text-zinc-400 text-sm mb-3">
                                     Tenemos un invitado especial que comparte su experiencia y conocimientos con nuestra audiencia.
@@ -143,7 +143,7 @@ export function Episodios() {
                                     <line x1="5" y1="19" x2="5" y2="5"></line>
                                 </svg>
                             </button>
-                            <button class="bg-purple-600 hover:bg-purple-700 rounded-full h-10 w-10 flex items-center justify-center">
+                            <button class="bg-yellow-600 duration-300 cursor-pointer hover:bg-yellow-700 rounded-full h-10 w-10 flex items-center justify-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                     <polygon points="5 3 19 12 5 21 5 3"></polygon>
                                 </svg>

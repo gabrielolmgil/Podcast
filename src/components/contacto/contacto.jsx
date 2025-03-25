@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 export function Contacto() {
 
     return (
-        <section id="sobre-nosotros" class="py-16 bg-zinc-800">
+        <section id="sobre-nosotros" class="py-16 bg-zinc-800 text-white">
             <div class="container mx-auto px-4">
-                <h2 class="text-3xl font-bold mb-8 border-l-4 border-purple-500 pl-4">Sobre El Último Frasco</h2>
+                <h2 class="text-3xl font-bold mb-8 border-l-4 border-yellow-600 pl-4">Sobre El Último Frasco</h2>
 
                 <div class="grid md:grid-cols-2 gap-8">
                     <div>
@@ -18,11 +18,8 @@ export function Contacto() {
                             y conectar con personas que comparten nuestras inquietudes.
                         </p>
                         <div class="flex gap-4 mt-6">
-                            <button class="border border-purple-500 text-purple-400 hover:bg-purple-500/10 px-4 py-2 rounded-md">
+                            <button class="border border-yellow-500 duration-300 cursor-pointer text-yellow-400 hover:bg-yellow-500/10 px-4 py-2 rounded-md">
                                 Conócenos más
-                            </button>
-                            <button class="border border-zinc-600 text-zinc-300 hover:bg-zinc-700 px-4 py-2 rounded-md">
-                                Contacto
                             </button>
                         </div>
                     </div>
